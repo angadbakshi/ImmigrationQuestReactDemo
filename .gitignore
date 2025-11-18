@@ -1,0 +1,65 @@
+# WebStorm specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Cache directories
+.cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development files
+.local/
+
+auth/dist
+core/dist
+immigration-2/dist

@@ -1,0 +1,48 @@
+import { Resource } from '../types/learning';
+
+export const mockResources: Resource[] = [
+  {
+    id: 'language-prep',
+    title: 'IELTS Preparation Guide',
+    description: 'Comprehensive guide for IELTS test preparation',
+    type: 'guide',
+    category: 'language',
+    content: 'Detailed study materials and practice tests for IELTS examination',
+    difficulty: 2,
+    estimatedTime: 120,
+    tags: ['IELTS', 'English', 'Testing'],
+  },
+  {
+    id: 'cultural-intro',
+    title: 'Cultural Integration',
+    description: 'Understanding local customs and workplace culture',
+    type: 'video',
+    category: 'culture',
+    content: 'Video series on cultural adaptation and workplace norms',
+    difficulty: 1,
+    estimatedTime: 45,
+    tags: ['Culture', 'Workplace', 'Integration'],
+  },
+  {
+    id: 'legal-rights',
+    title: 'Immigration Rights & Laws',
+    description: 'Overview of legal rights and responsibilities',
+    type: 'article',
+    category: 'legal',
+    content: 'Comprehensive guide to immigration laws and rights',
+    difficulty: 3,
+    estimatedTime: 60,
+    tags: ['Legal', 'Rights', 'Immigration Law'],
+  },
+  {
+    id: 'job-search',
+    title: 'Job Search Strategies',
+    description: 'Effective techniques for finding employment',
+    type: 'guide',
+    category: 'employment',
+    content: 'Guide to job searching, resume writing, and interviewing',
+    difficulty: 2,
+    estimatedTime: 90,
+    tags: ['Employment', 'Job Search', 'Career'],
+  },
+];

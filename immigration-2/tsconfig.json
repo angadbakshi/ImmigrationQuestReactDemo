@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "include": ["src", "vite-env.d.ts"], // Ensure this includes your `vite-env.d.ts` file
+  "compilerOptions": {
+    "types": ["vite/client"], // Add this to include Vite's client types
+    "baseUrl": ".",
+    "noUnusedLocals": false,
+    "paths": {
+      "@/*": ["src/*"],
+      "core/*": ["../core/src/*"]
+    }
+  }
+}

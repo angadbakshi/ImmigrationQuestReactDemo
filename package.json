@@ -1,0 +1,7 @@
+{
+  "workspaces": [
+    "core",
+    "immigration-2",
+    "auth"
+  ]
+}

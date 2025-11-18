@@ -1,0 +1,25 @@
+{
+  "name": "@app/auth",
+  "version": "1.0.0",
+  "description": "Authentication feature package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "core": "file:../core",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "vite": "^6.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "vite-plugin-checker": "^0.8.0"
+  }
+}
